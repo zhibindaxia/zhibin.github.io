@@ -16,7 +16,7 @@ Table of Contents
 
   * [数据结构及算法](#数据结构及算法) 
 
-  * [Spring 框架等](#Spring 框架等) 
+  * [部分java框架](#数据结构基础) 
   
 ## OS操作系统
 
@@ -29,4 +29,4 @@ Table of Contents
 
 ## 数据结构及算法
 
-## Spring 框架等
+## 部分java框架
