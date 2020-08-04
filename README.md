@@ -16,7 +16,7 @@ Table of Contents
 
   * [数据结构及算法](#数据结构及算法) 
 
-  * [Spring 框架学习](#Spring 框架等) 
+  * [Spring 框架等](#Spring 框架等) 
   
 ## OS操作系统
 
