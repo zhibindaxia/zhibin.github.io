@@ -1,6 +1,4 @@
 #Volatile
-
-比较并交换
 * java虚拟机提供的轻量级的同步机制
    * 保证可见性
    * 不保证原子性
@@ -13,7 +11,7 @@
 ![Alt text](./1596591356548.png)
 
 ###JMM线程内存模型
-![Alt text](https://github.com/zhibindaxia/zhibin.github.io/blob/master/java%E5%9F%BA%E7%A1%80/JMM%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E5%9B%BE.png)
+![Alt text](./1596591533068.png)
 * 获取数据过程: read -> load -> use
 * 修改数据过程: assign->store(已经在主内存中,但是还未更新值) ->write
 * 加锁演化:
@@ -27,3 +25,11 @@
 硬盘<内存<CPU
 
 CPU与内存之间存在缓存cache
+
+##指令重排
+
+* 要考虑数据依赖性 
+* 编译器优化重排
+* 内存屏障(内存栅栏),CPU指令,作用有两个  (即上面所说的 store和load)
+	* 一是保证特定操作的执行顺序
+	* 二是保证某些变量的内存可见性
