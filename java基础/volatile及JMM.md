@@ -13,7 +13,7 @@
 ![Alt text](./1596591356548.png)
 
 ###JMM线程内存模型
-![Alt text](./1596591533068.png)
+![Alt text](https://github.com/zhibindaxia/zhibin.github.io/blob/master/java%E5%9F%BA%E7%A1%80/JMM%E5%86%85%E5%AD%98%E6%A8%A1%E5%9E%8B%E5%9B%BE.png)
 * 获取数据过程: read -> load -> use
 * 修改数据过程: assign->store(已经在主内存中,但是还未更新值) ->write
 * 加锁演化:
